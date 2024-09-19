@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    border: 0%;
+    font-family: "Roboto Serif", serif;
+  
+}
+
+.head{
+    background-color: #EEEEEE;
+   display: flex;
+   padding: 10px;
+   align-items: center;
+
+   padding-bottom: 20;
+  top: 0%;
+  position: fixed;
+  width: 100%;
+   
+}
+.head:hover{
+    background-color: aliceblue;
+}
+.logo a img {
+    height:45px;
+    width: 45px;
+   padding:5px;
+   padding: right 3px; 
+}
+.search{
+    padding:2px;
+    display: flex;
+    flex: 1;
+}
+.search input{
+    flex: 1;
+   padding:3px;
+    text-transform: capitalize;
+    flex-grow: 1;
+   
+    border-radius: 5px 0px 0px 5px;
+}
+.search button{
+    padding: 3px;
+    text-transform: capitalize;
+    border-radius: 0px 5px 5px 0px;
+   
+    cursor: pointer;
+}
+.deals{
+    padding: 15px;
+}
+.deals a{
+    padding:3px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+
+}
+
+.links a img{
+    height: 50px;
+    width: 50px;
+    padding: 12px;
+  
+}
+.herodeal {
+    background-color:#686D76 ;
+  
+ }
+ .herodeal img{
+    
+     border-radius:15px;
+     width: 100%;
+     margin-top: 10px;
+    
+ }
